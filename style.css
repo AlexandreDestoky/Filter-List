@@ -1,0 +1,55 @@
+/* Générale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%) no-repeat center fixed;
+  background-size: cover;
+
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.container {
+  width: 60%;
+  min-width: 600px;
+  background-color: bisque;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+/* Barre de recherche */
+.recherche {
+  display: flex;
+  border: 4px solid black;
+}
+
+.text {
+  width: calc(100% - 50px);
+  height: 50px;
+  font-size: 30px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.fas {
+  display: inline-block;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+/* Liste éléments */
+.liste {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+  border: 1px solid brown;
+  padding: 5px;
+  padding-left: 30px;
+}
